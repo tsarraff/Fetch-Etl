@@ -20,5 +20,5 @@ services:
       - postgres
       - localstack
     environment:
-      AWS_ID: test
-      AWS_KEY: test
+      AWS_ACCESS_KEY_ID: dummy
+      AWS_SECRET_ACCESS_KEY: dummy
